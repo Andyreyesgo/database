@@ -58,9 +58,9 @@ CREATE TABLE curso(
 
 CREATE TABLE prueba(
     id_prueba INT,
-    departamento_prueba VARCHAR (25),
+    evaluacion_curso INT,
     contenido_prueba VARCHAR(10),
-    puntaje VARCHAR(25),
+    puntaje INT,
     PRIMARY KEY (id_prueba),
     FOREIGN KEY(evaluacion_curso) REFERENCES curso(letra_curso)
 
