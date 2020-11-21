@@ -56,7 +56,6 @@ CREATE TABLE curso(
 );
 
 
-
 CREATE TABLE prueba(
     id_prueba INT,
     departamento_prueba VARCHAR (25),
